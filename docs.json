@@ -3,6 +3,9 @@
   "theme": "maple",
   "name": "Tyler Diderich",
   "favicon": "/favicon.png",
+  "colors": {
+    "primary": "#ff0000"
+  },
   "navigation": {
     "tabs": [
       {
