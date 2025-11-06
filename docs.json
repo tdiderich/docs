@@ -1,22 +1,24 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "maple",
+  "colors": {
+    "primary": "#F97316",
+    "light": "#F8FAFC",
+    "dark": "#0F172A"
+  },
   "name": "Tyler Diderich",
   "favicon": "/favicon.png",
-  "colors": {
-    "primary": "#ff0000"
-  },
   "navigation": {
     "tabs": [
       {
         "tab": "About",
         "icon": "square-terminal",
-        "pages": ["about/about.mdx"]
+        "pages": ["about/about"]
       },
       {
         "tab": "Work",
         "icon": "code",
-        "pages": ["work/resume.mdx"]
+        "pages": ["work/resume"]
       },
       {
         "tab": "Projects",
@@ -26,12 +28,12 @@
             "group": "Active",
             "icon": "zap",
             "pages": [
-              "projects/active/success-from-scratch.mdx",
-              "projects/active/use-case-library.mdx",
-              "projects/active/full-scale-deployment.mdx",
-              "projects/active/trainiq.mdx",
-              "projects/active/runzero-scripts.mdx",
-              "projects/active/personal-grifts.mdx"
+              "projects/active/success-from-scratch",
+              "projects/active/use-case-library",
+              "projects/active/full-scale-deployment",
+              "projects/active/trainiq",
+              "projects/active/runzero-scripts",
+              "projects/active/personal-grifts"
             ]
           },
           {
