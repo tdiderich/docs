@@ -11,7 +11,7 @@
       {
         "tab": "About",
         "icon": "square-terminal",
-        "pages": ["about/index.mdx"]
+        "pages": ["about/about.mdx"]
       },
       {
         "tab": "Work",
