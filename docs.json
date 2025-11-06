@@ -7,7 +7,7 @@
     "light": "#07C983",
     "dark": "#15803D"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/favicon.jpg",
   "navigation": {
     "tabs": [
       {
@@ -26,10 +26,6 @@
       "anchors": []
     }
   },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
   "navbar": {
     "links": []
   },
@@ -47,7 +43,7 @@
   },
   "footer": {
     "socials": {
-      "linkedin": "https://www.linkedin.com/in/tylerdiderich/details/experience/"
+      "linkedin": "https://www.linkedin.com/in/tylerdiderich"
     }
   }
 }
