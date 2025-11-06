@@ -2,22 +2,39 @@
   "$schema": "https://mintlify.com/docs.json",
   "theme": "maple",
   "name": "Tyler Diderich",
-  "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
-  },
-  "favicon": "/favicon.jpg",
+  "favicon": "/favicon.png",
   "navigation": {
     "tabs": [
       {
         "tab": "About",
+        "icon": "square-terminal",
+        "pages": ["about/index.mdx"]
+      },
+      {
+        "tab": "Work",
+        "icon": "code",
+        "pages": ["work/resume.mdx"]
+      },
+      {
+        "tab": "Projects",
+        "icon": "newspaper",
         "groups": [
           {
-            "group": "About Me",
+            "group": "Active",
+            "icon": "zap",
             "pages": [
-              "index"
+              "projects/active/success-from-scratch.mdx",
+              "projects/active/use-case-library.mdx",
+              "projects/active/full-scale-deployment.mdx",
+              "projects/active/trainiq.mdx",
+              "projects/active/runzero-scripts.mdx",
+              "projects/active/personal-grifts.mdx"
             ]
+          },
+          {
+            "group": "Inactive",
+            "icon": "archive",
+            "pages": []
           }
         ]
       }
@@ -31,15 +48,15 @@
   },
   "contextual": {
     "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
+      "copy",
+      "view",
+      "chatgpt",
+      "claude",
+      "perplexity",
+      "mcp",
+      "cursor",
+      "vscode"
+    ]
   },
   "footer": {
     "socials": {
