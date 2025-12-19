@@ -1,0 +1,54 @@
+---
+title: "Curata"
+description: "A personalized daily news digest that trims the noise — curated briefings by topic across web and iOS."
+icon: "newspaper"
+---
+
+---
+
+## 🎯 Overview
+
+Curata delivers a **daily, personalized news digest** that keeps the signal and drops the noise.  
+Readers can browse default topics without an account, then sign in with Apple or Google to personalize beyond the five public topics (`ai`, `wellness`, `celebrity_news`, `economy`, `movies`). Each briefing bundles a headline, concise summary, and “Read source” link — refreshed every day on web and iOS via LLM-generated summaries that are validated before publishing.
+
+👉 [Open the web app →](https://app.curata.ai/)  
+👉 [Get the iOS app →](https://apps.apple.com/us/app/curata-digest/id6755496708)
+
+---
+
+## 🧩 Key Skills & Contributions
+
+- **End-to-end product build:** Shipped the entire experience — responsive web app, App Store distribution, and authentication flows (Apple/Google sign-in, profile management, privacy/terms surfaces).  
+- **Content pipeline:** Built the ingestion and summarization loop that turns multiple sources into structured briefings with headlines, subheadlines, sources, and outbound links, all validated against strict JSON schemas.  
+- **Personalization & retention:** Implemented topic selection, default anonymous browsing for the five public topics, and an **Influence** points system (daily claim + activity tracking) to keep readers engaged.  
+- **Admin & feedback loops:** Added requested-topics and admin tooling so coverage can adapt quickly based on user demand.  
+- **Design system:** Crafted a calm “news without the noise” visual language with reusable components, tokens, and empty/loading states that work across desktop and mobile.
+
+---
+
+## 🏆 Impact
+
+- Delivered a **fast, noise-free daily briefing** that reduces time spent doomscrolling while keeping readers informed.  
+- Launched across **web and iOS**, widening reach without duplicating backend work.  
+- Gamified engagement (Influence points + daily claim) and feedback channels (requested topics) to continuously improve coverage.
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer | Technologies |
+|-------|---------------|
+| **Frontend** | React (Vite) web app, SwiftUI iOS app |
+| **Backend** | Firebase (Firestore, Functions, Auth) |
+| **Content Pipeline** | Automated sourcing, LLM summarization, strict JSON/schema validation, topic tagging, daily refresh |
+| **Auth** | Apple + Google Sign-In via Firebase Auth; anonymous browsing for default topics |
+| **Hosting & Distribution** | Firebase Hosting, Apple App Store |
+
+---
+
+## 🔗 Resources
+
+- **Web App:** [app.curata.ai](https://app.curata.ai/)  
+- **iOS App:** [App Store](https://apps.apple.com/us/app/curata-digest/id6755496708)  
+- **Phase:** Active  
+- **Type:** AI & News
